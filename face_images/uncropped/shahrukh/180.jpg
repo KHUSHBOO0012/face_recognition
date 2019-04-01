@@ -1,0 +1,1197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:fb='http://www.facebook.com/2008/fbml'>
+<head>
+<title>ManagementParadise.com - Management education focused social learning platform. Discover, Share, Learn</title>
+<base href='http://www.managementparadise.com/' />
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+
+<meta name='Description' content="ManagementParadise.com is world's leading management education focused social learning platform. Get study material, project reports, study guides, institute details for MBA & BBA students and aspirants" />
+<meta name="keywords" content="Management Paradise,Management Education,Social Learning,MBA,BMS,BMS Projects,BBA,Executive Mba Programs,Online Degree," />
+<link href='./templates/mp-color.gif' rel='shortcut icon' />
+<link rel="stylesheet" href="./templates/styles_global.css" title="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript">$.noConflict();</script>
+<script type="text/javascript" src="./include/js/mootools12-min.js"></script>
+<script type="text/javascript" src="./include/js/core-min.js"></script>
+
+<script src="./include/js/tooltip_js/dw_event.js" type="text/javascript"></script>
+<script src="./include/js/tooltip_js/dw_viewport.js" type="text/javascript"></script>
+<script src="./include/js/tooltip_js/dw_tooltip.js" type="text/javascript"></script>
+<script src="./include/js/tooltip_js/dw_tooltip_aux.js" type="text/javascript"></script>
+<script src="./include/js/tooltip_js/dw_xhr.js" type="text/javascript"></script>
+<script src="./include/js/tooltip_js/ajax_tip.js" type="text/javascript"></script>
+<script src="./include/js/briefcase.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="./include/js/mp/menuscript.js"></script>
+<script type="text/javascript" src="./include/js/mp/HorizontalMovement/script.js"></script>
+
+<script type="text/javascript" src="include/js/jquery.min.js"></script>
+<script type="text/javascript" src="include/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="templates/css/17.css" type="text/css" media="screen">
+<link rel="stylesheet" href="templates/css/4.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="templates/css/m3.css" media="screen">
+<link href="templates/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="templates/css/red.css" rel="stylesheet" type="text/css" />
+<link href="templates/css/profile.css" rel="stylesheet" type="text/css" />
+<link href="templates/css/responsive.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="./templates/stylemp.css" title="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./templates/stylemp_gyani.css" title="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./templates/infobar.css" title="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="./include/js/ajaxtabs/ajaxtabs.js"></script>
+
+<script type="text/javascript">
+        <!--
+              var SocialEngine = new SocialEngineAPI.Base();
+              
+              // Core
+              SocialEngine.Core = new SocialEngineAPI.Core();
+              SocialEngine.Core.ImportSettings({"setting_url":true,"setting_username":true});
+              SocialEngine.Core.ImportPlugins(["apps","scheduler","fof","invite","radcodes","article","group","classified","event","facebookpublisher","rssfeed","document","documentgroup","rcseo","he_core","he_wall","semods_massmessage","blog","job","video","plugin_controls"]);
+              SocialEngine.RegisterModule(SocialEngine.Core);
+              
+              // URL
+              SocialEngine.URL = new SocialEngineAPI.URL();
+              SocialEngine.URL.ImportURLBase('http://www.managementparadise.com/');
+              SocialEngine.URL.ImportURLInfo({"blog":{"url_file":"blog","url_regular":"blog.php?user=$user","url_subdirectory":"$user\/blog\/"},"blog_entry":{"url_file":"blog_entry","url_regular":"blog.php?user=$user&blogentry_id=$id1","url_subdirectory":"$user\/blog\/$id1\/"},"blog_trackback":{"url_file":"blog_trackback","url_regular":"blog_ajax.php?task=trackback&user=$user&blogentry_id=$id1","url_subdirectory":"$user\/trackback\/$id1\/"},"event":{"url_file":"event","url_regular":"event.php?event_id=$id1","url_subdirectory":"event\/$id1\/"},"event_media":{"url_file":"event_media","url_regular":"event_album_file.php?event_id=$id1&eventmedia_id=$id2","url_subdirectory":"event\/$id1\/album\/$id2\/"},"classifieds":{"url_file":"classifieds","url_regular":"classifieds.php?user=$user","url_subdirectory":"$user\/classifieds\/"},"classified":{"url_file":"classified","url_regular":"classified.php?user=$user&classified_id=$id1","url_subdirectory":"$user\/classifieds\/$id1\/"},"job":{"url_file":"job","url_regular":"job.php?user=$user","url_subdirectory":"$user\/job\/"},"job_entry":{"url_file":"job_entry","url_regular":"job.php?user=$user&jobentry_id=$id1","url_subdirectory":"$user\/job\/$id1\/"},"job_trackback":{"url_file":"job_trackback","url_regular":"job_ajax.php?task=trackback&user=$user&jobentry_id=$id1","url_subdirectory":"$user\/trackback\/$id1\/"},"articles":{"url_file":"articles","url_regular":"articles.php?user=$user","url_subdirectory":"$user\/articles\/"},"article":{"url_file":"article","url_regular":"article.php?article_id=$id1","url_subdirectory":"article\/$id1\/$id2"},"user_recommendation_send":{"url_file":"user_recommendation_send","url_regular":"user_recommendation_send.php?user=$user&subject_id=$id1","url_subdirectory":"$user\/subject\/$id1\/"},"user_recommendation_manage":{"url_file":"user_recommendation_manage","url_regular":"user_recommendation_manage.php?subject_id=$id1","url_subdirectory":"subject_id\/$id\/"},"group":{"url_file":"group","url_regular":"group.php?group_id=$id1","url_subdirectory":"group\/$id1\/"},"group_media":{"url_file":"group_media","url_regular":"group_album_file.php?group_id=$id1&groupmedia_id=$id2","url_subdirectory":"group\/$id1\/album\/$id2\/"},"group_discussion":{"url_file":"group_discussion","url_regular":"group_discussion_view.php?group_id=$id1&grouptopic_id=$id2","url_subdirectory":"group\/$id1\/discussion\/$id2\/"},"group_discussion_post":{"url_file":"group_discussion_post","url_regular":"group_discussion_view.php?group_id=$id1&grouptopic_id=$id2&grouppost_id=$id3","url_subdirectory":"group\/$id1\/discussion\/$id2\/$id3\/"},"video":{"url_file":"video","url_regular":"video.php?user=$user&video_id=$id1","url_subdirectory":"$user\/videos\/$id1"},"forums_profile_image":{"url_file":"forums_profile_image","url_regular":"forums\/image.php","url_subdirectory":""},"app_canvas":{"url_file":"app_canvas","url_regular":"user_apps_canvas.php?id=$id1&app_tab_id=$id2","url_subdirectory":"user_apps_canvas.php?id=$id1&app_tab_id=$id2"},"app_page":{"url_file":"app_page","url_regular":"apppage.php?id=$id1","url_subdirectory":"apppage.php?id=$id1"},"app":{"url_file":"app","url_regular":"app.php?id=$id1","url_subdirectory":"application\/$id1\/"},"document":{"url_file":"document","url_regular":"document.php?user=$user&document_id=$id1&title=$id2","url_subdirectory":"$user\/documents\/$id1\/$id2\/"},"browsedoctag":{"url_file":"browsedoctag","url_regular":"mba-projects-download.php?tag=$user","url_subdirectory":"documents\/tag\/$user\/"},"browsedoccat":{"url_file":"browsedoccat","url_regular":"mba-projects-download.php?url=$user","url_subdirectory":"mba-projects\/$user\/"},"userdocs":{"url_file":"userdocs","url_regular":"documents.php?user=$user","url_subdirectory":"$user\/documents\/"},"documentgroup":{"url_file":"documentgroup","url_regular":"documentgroup.php?user=$user&documentgroup_id=$id1&group_id=$id2&title=$id3","url_subdirectory":"$user\/documentgroups\/$id1\/$id2\/$id3\/"},"browsedoc":{"url_file":"browsedoc","url_regular":"mba-projects-download.php","url_subdirectory":"mba-projects-download.php"},"browsejob":{"url_file":"browsejob","url_regular":"browse_jobs.php","url_subdirectory":"search-mba-jobs\/"},"searchjob":{"url_file":"searchjob","url_regular":"browse_jobs.php","url_subdirectory":"browse_jobs.php"},"browseevents":{"url_file":"browseevents","url_regular":"browse_events.php","url_subdirectory":"mba-management-events\/"},"browsegroups":{"url_file":"browsegroups","url_regular":"browse_groups.php","url_subdirectory":"mba_groups\/"},"browsevideos":{"url_file":"browsevideos","url_regular":"browse_videos.php","url_subdirectory":"mba-management-videos\/"},"browseblogs":{"url_file":"browseblogs","url_regular":"browse_blogs.php","url_subdirectory":"mba_blogs\/"},"browsearticles":{"url_file":"browsearticles","url_regular":"articles.php","url_subdirectory":"mba-management-articles\/"},"browseinstitutes":{"url_file":"browseinstitutes","url_regular":"browse_institutes.php","url_subdirectory":"top_mba_institutes_india\/"},"browsearticlesallcat":{"url_file":"browsearticlesallcat","url_regular":"search_article.php","url_subdirectory":"mba-articles\/"},"browsearticlescat":{"url_file":"browsearticlescat","url_regular":"search_article.php?caturl=$user","url_subdirectory":"mba-articles\/$user\/"},"browseblogscat":{"url_file":"browseblogscat","url_regular":"search_blog.php?caturl=$user","url_subdirectory":"mba-blogs\/$user\/"},"browseblogsallcat":{"url_file":"browseblogsallcat","url_regular":"search_blog.php?t=blog&task=allcategory","url_subdirectory":"mba-blogs\/"},"rssfeed_user":{"url_file":"rssfeed_user","url_regular":"rssfeed.php?user=$user&rfid=$id1","url_subdirectory":"$user\/rssfeed\/$id1\/"},"rssfeeds_user":{"url_file":"rssfeeds_user","url_regular":"rssfeed.php?user=$user","url_subdirectory":"$user\/rssfeeds\/"},"rssfeeds_tag":{"url_file":"rssfeeds_tag","url_regular":"rssfeeds.php?tag=$user","url_subdirectory":"rssfeeds\/tag\/$user\/"},"profile":{"url_regular":"profile.php?user=$user","url_subdirectory":"profile.php?user=$user"}});
+              SocialEngine.RegisterModule(SocialEngine.URL);
+              
+              // Language
+              SocialEngine.Language = new SocialEngineAPI.Language();
+              SocialEngine.RegisterModule(SocialEngine.Language);
+              
+              // User - Viewer
+              SocialEngine.Viewer = new SocialEngineAPI.User();
+              SocialEngine.Viewer.ImportUserInfo({"user_exists":false});
+              SocialEngine.RegisterModule(SocialEngine.Viewer);
+              
+              // User - Owner
+              SocialEngine.Owner = new SocialEngineAPI.User();
+              SocialEngine.Owner.ImportUserInfo({"user_exists":false});
+              SocialEngine.RegisterModule(SocialEngine.Owner);
+              
+              // Back
+              SELanguage = SocialEngine.Language;
+        //-->
+        </script>
+<script type="text/javascript">
+            <!--
+                  // ADD TIP FUNCTION
+                  window.addEvent('load', function()
+                  {
+                    var Tips1 = new Tips($$('.Tips1'));
+                  });
+
+                function refreshCaptcha() {
+                    var img = document.images['secure_image'];
+                    img.src = img.src + "?rand="+Math.random()*1000;
+                }
+            //-->
+            </script>
+<link rel="stylesheet" href="./templates/styles_apps.css" title="stylesheet" type="text/css">
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="./templates/styles_apps_ie.css" type="text/css" media="projection, screen" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="./templates/styles_apps_ie6.css" type="text/css" media="projection, screen" />
+<![endif]-->
+<script type="text/javascript" src="./include/js/semods.js"></script>
+<script type="text/javascript" src="./include/js/semods_apps.js"></script>
+<script type="text/javascript" src="./include/js/smoothboxEx.js"></script>
+<script type="text/javascript" src="./include/js/moofacebox/moofacebox.js"></script>
+<link rel="stylesheet" href="./include/js/moofacebox/moofacebox.css" title="stylesheet" type="text/css">
+<div id="rss_feed_reader_wrapper" style="display:none">
+<div style="position:relative">
+<div class="rss_feed_reader_header">
+<h3 style="margin: 0px;">News Reader (New: <span id="rss_feed_reader_unreadcount">0</span>)</h3>
+<h3 id="rss_feed_reader_title"><a id="rss_feed_reader_title_link" target="_blank" href="" onclick="return false;"></a></h3>
+<div style="padding-left: 2px; padding-top: 3px;">
+<div class="rss_feed_reader_button rss_feed_reader_button_readall" onclick="SEMods.Apps.RssFeedReader.read_all();"> Read All </div>
+<div class="rss_feed_reader_button rss_feed_reader_button_unreadall" onclick="SEMods.Apps.RssFeedReader.unread_all();"> Unread All </div>
+<div class="rss_feed_reader_button rss_feed_reader_button_contentviewswitch" id="rss_feed_reader_button_contentviewswitch" onclick="SEMods.Apps.RssFeedReader.switch_content_view();"> Show short preview </div>
+<div style="clear:both"></div>
+</div>
+</div>
+<div style="position: absolute; right: 12px; top: 10px; font-weight: bold">
+<a href="javascript:void(0)" onclick="SEMods.Apps.RssFeedReader.hide_feed_reader()">X</a>
+</div>
+</div>
+<div>
+<table cellspacing=0 cellpadding=0 width="100%">
+<tr>
+<td valign="top" style="width:220px">
+<div id="rss_feed_reader_headlines">
+</div>
+</td>
+<td style="width: 5px">
+</td>
+<td valign="top">
+<div id="rss_feed_reader_content" style="position: relative">
+<div id="rss_feed_reader_content_inline" style="display: none">
+<div class="rss_feed_reader_content_title">
+<h2><a id="rss_feed_reader_content_title_link" href="" target="_blank"></a></h2>
+<div class="rss_feed_reader_content_title_date_wrap">
+<span id="rss_feed_reader_content_title_date"></span>
+</div>
+</div>
+<div class="rss_feed_reader_content_content" id="rss_feed_reader_content_content">
+</div>
+</div>
+</div>
+<div id="rss_feed_reader_ads" style="display:none">
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<script>
+// smart...y
+try {
+
+  SEMods.Apps.RssFeedReader.setting_rssreader_enabled = '1';
+  SEMods.Apps.RssFeedReader.setting_dock_to_menu = '1';
+  SEMods.Apps.RssFeedReader.read_content_inline = '0';
+  SEMods.Apps.RssFeedReader.setting_show_bottom_ad = '0';
+  SEMods.Apps.RssFeedReader.setting_bottom_ad_height = '60';  // pixels
+  
+  SEMods.Apps.RssFeedReader.lang_feed_view = 'Show short preview';
+  SEMods.Apps.RssFeedReader.lang_web_view = 'Show Website';
+
+}
+ catch(e){} ;
+</script>
+<link rel="stylesheet" href="./templates/styles_radcodes.css" title="stylesheet" type="text/css">
+<script type="text/javascript" src="./include/js/radcodes.js"></script><link rel="stylesheet" href="./templates/styles_article.css" title="stylesheet" type="text/css">
+<script type="text/javascript" src="./include/fckeditor/fckeditor.js"></script>
+<script type="text/javascript" src="./include/js/showhide.js"></script>
+<link rel="stylesheet" href="./templates/styles_classified.css" title="stylesheet" type="text/css" />
+<script type="text/javascript" src="./include/fckeditor/fckeditor.js"></script><link rel="stylesheet" href="./templates/styles_openidconnect.css" title="stylesheet" type="text/css">
+<script type="text/javascript" src="./include/js/semods.js"></script>
+<script type="text/javascript" src="./include/js/openidconnect.js"></script>
+<script type="text/javascript" src="./include/js/moofacebox/moofacebox.js"></script>
+<link rel="stylesheet" href="./include/js/moofacebox/moofacebox.css" title="stylesheet" type="text/css"><link rel="stylesheet" href="./templates/styles_rssfeed.css" title="stylesheet" type="text/css">
+<link rel="stylesheet" href="./templates/styles_document.css" title="stylesheet" type="text/css" /> <link rel="stylesheet" href="./templates/styles_documentgroup.css" title="stylesheet" type="text/css" /> <meta name="keywords" content="Management Paradise,Management Education,Social Learning,MBA,BMS,BMS Projects,BBA,Executive Mba Programs,Online Degrees.">
+<script type="text/javascript" src="./include/js/he_contacts.js"></script>
+<script type="text/javascript" src="./include/js/he_functions.js"></script>
+<link rel="stylesheet" href="./templates/he_styles.css" type="text/css" />
+<link rel="stylesheet" href="./templates/he_wall.css" title="stylesheet" type="text/css" />
+<script type="text/javascript" src="./include/js/webtoolkit.aim.js"></script>
+<script type="text/javascript" src="./include/standalone/audio-player.js"></script>
+<script type="text/javascript" src="./include/js/he_wall.js"></script>
+<script type="text/javascript">
+    AudioPlayer.setup("./include/standalone/player.swf", { width: 290 });
+    he_wall.show_video_player = true;</script>
+<link rel="stylesheet" href="./templates/styles_group.css" title="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./templates/styles_event.css" title="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./templates/styles_blog.css" title="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./templates/styles_job.css" title="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./templates/styles_video.css" title="stylesheet" type="text/css" />
+<style type='text/css'></style>
+<script language="javascript"> var BROWSERNAME = "Firefox"; </script>
+<script type="text/javascript" language="JavaScript">
+function submit_login_form() {
+    var frm_obj = document.frm_login;
+    if(frm_obj.email.value == '' || frm_obj.email.value == 'Email Address') {
+        alert("Enter Login Id");
+        frm_obj.email.focus();
+    } else if(frm_obj.password.value == '' || frm_obj.password.value == 'Password') {
+        alert("Enter Password");
+        frm_obj.password.focus();
+    } else {
+        frm_obj.vb_login_password.value = frm_obj.password.value;
+        return true;
+    }
+    return false;
+}
+</script> <script src="//load.sumome.com/" data-sumo-site-id="53416b9cbae51218034d288cac816ba16656cbe8ac695edee7453c146d1419b8" async="async"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5725286117170576",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body> 
+<iframe id='ajaxframe' name='ajaxframe' style='display: none;' src='javascript:false;'></iframe>
+<div id="smoothbox_container"></div>
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>
+	GS_googleAddAdSenseService("ca-pub-5725286117170576");
+	GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+	GA_googleAddSlot("ca-pub-5725286117170576", "HomepageLeaderboard1");
+	GA_googleAddSlot("ca-pub-5725286117170576", "HomepageLeaderboard2");
+	GA_googleAddSlot("ca-pub-5725286117170576", "Ad_Header_Below_Navigation");
+	GA_googleAddSlot("ca-pub-5725286117170576", "LargeRectangle");
+	GA_googleAddSlot("ca-pub-5725286117170576", "LargeRectangleincontent");
+	GA_googleAddSlot("ca-pub-5725286117170576", "Second_Large_Rectangle");
+	GA_googleAddSlot("ca-pub-5725286117170576", "Sitewideheader");
+	GA_googleAddSlot("ca-pub-5725286117170576", "Homepage3");
+        GA_googleAddSlot("ca-pub-5725286117170576", "SkySkrapper_Sidebar");
+        GA_googleAddSlot("ca-pub-5725286117170576", "SidebarHomepage");
+</script>
+<script type='text/javascript'>
+	GA_googleFetchAds();
+</script>
+<script type='text/javascript'>
+<!--
+	var open_menu;
+    var current_timeout = new Array();
+    function showMenu(id1)
+    {
+        if($(id1))
+        {
+            if($(id1).style.display == 'none')
+            {
+                if($(open_menu)) 
+                {
+                    hideMenu($(open_menu)); 
+                }
+                $(id1).style.display='inline';
+                startMenuTimeout($(id1));
+                $(id1).addEvent('mouseover', function(e) { killMenuTimeout(this); });
+                $(id1).addEvent('mouseout', function(e) { startMenuTimeout(this); });
+                open_menu = id1;
+            }
+        }
+    }
+    function killMenuTimeout(divEl)
+    {
+        clearTimeout(current_timeout[divEl.id]);
+        current_timeout[divEl.id] = '';
+    }
+    function startMenuTimeout(divEl)
+    {
+        if(current_timeout[divEl.id] == '') 
+        {
+            current_timeout[divEl.id] = setTimeout(function() { hideMenu(divEl); }, 1000);
+        }
+    }
+    function hideMenu(divEl)
+    {
+        divEl.style.display = 'none'; 
+        current_timeout[divEl.id] = '';
+        divEl.removeEvent('mouseover', function(e) { killMenuTimeout(this); });
+        divEl.removeEvent('mouseout', function(e) { startMenuTimeout(this); });
+    }
+    function SwapOut(id1) 
+    {
+        $(id1).src = Rollarrow1.src;
+        return true;
+    }
+    function SwapBack(id1) 
+    {
+        $(id1).src = Rollarrow0.src;
+        return true;
+    }
+//-->
+</script>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="top"><table width="992" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="3" align="left" valign="top" style="padding-top:13px;"><table width="994" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+
+<td width="612" align="left" valign="middle"><table width="728" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+<td width="728" height="90" align="right" valign="top"><script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-5725286117170576");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-5725286117170576", "topbannerswf");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+<script type='text/javascript'>
+GA_googleFillSlot("topbannerswf");
+</script>
+</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<script type="text/javascript">
+
+		function hideitem(id)
+
+		{
+
+			var tag="#";
+
+			var itemid=tag+id;
+
+			jQuery(itemid).mouseleave(function()
+
+			{
+
+				jQuery(itemid).css('display','none');
+
+			});
+
+		}
+
+		function hideitemnav(id)
+
+		{
+
+			var tag="#div";
+
+			var itemid=tag+id;
+
+			jQuery(itemid).css('display','none');
+
+		}
+
+		function showitem(id)
+
+		{
+
+			/*$("#div1").css('display','none');
+
+			$("#div2").css('display','none');
+
+			$("#div3").css('display','none');
+
+			$("#div4").css('display','none');
+
+			$("#div5").css('display','none');
+
+			$("#div6").css('display','none');
+
+			$("#div7").css('display','none');
+
+			$("#div8").css('display','none');
+
+			$("#div9").css('display','none');*/
+
+
+
+			var tag="#div";
+
+			var itemid=tag+id;
+
+			jQuery(itemid).css('display','Block');
+
+		}
+
+	</script>
+<link href="nav.css" rel="stylesheet" type="text/css" />
+<div id="Menu">
+<div class="hidden-header"></div>
+<header class="clearfix">
+<div style="margin-top:0px;height:40px;background-color:#fff;padding-top:5px;">
+<div class="row">
+<div class="col-md-7">
+<div class="row">
+<div class="col-md-5 col-xs-5">
+<div class="col-md-6 hidden-xs"> </div>
+<div class="col-md-6"><a href="http://www.managementparadise.com"> <img width="130px" class="responsive" height="35px" alt="" src="./images/images/logo_240.png"></a> </div>
+</div>
+<div class="col-md-7 col-xs-7">
+<script>
+  (function() {
+    var cx = 'partner-pub-5725286117170576:4jg3909v168';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
+</div>
+</div>
+<div class="col-md-2"> </div>
+<div class="col-md-2 col-xs-12 social-instead" style="padding-left:0px;">
+<p style="text-align:center;">
+
+<a href="login.php" class="btn btn-danger">Log In</a>
+&nbsp;
+<a href="signup.php" class="btn btn-danger">Sign Up</a> </p> </div>
+</div>
+</div>
+<div class="navbar navbar-default navbar-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="float:left;"> <i class="fa fa-bars"></i> </button>
+<a class="navbar-brand pull-left" href="index.html"></a> </div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li> <a href="http://www.managementparadise.com/index.php">Home</a> </li>
+<li class="drop"> <a href="mba-projects-download.php">Projects</a>
+<ul class="dropdown">
+<li><a href="/user_document.php">Upload Your Project</a></li>
+<li><a href="mba-projects/marketing-project-reports-download/">Marketing</a></li>
+<li><a href="mba-projects/finance-project-reports-download/">Finance</a></li>
+<li><a href="mba-projects/account-documents-and-project-reports-download/">Accounts</a></li>
+<li><a href="mba-projects/information-system-projects-download/">Information Systems</a></li>
+<li><a href="mba-projects/download-international-business-projects/">International Business</a></li>
+<li><a href="mba-projects/human-resource-management-hr-projects-download/">Human Resource Management</a></li>
+<li><a href="mba-projects/download-operations-research-projects/">Operations</a></li>
+<li><a href="mba-projects/download-retail-management-projects/">Retail Management</a></li>
+<li><a href="mba-projects/download-entrepreneurship-projects/">Entrepreneurship</a></li>
+<li><a href="mba-projects/economics-projects-download/">Economics</a></li>
+<li><a href="mba-projects/mass-media-communications-projects-download/">Mass Media</a></li>
+<li><a href="/mba-projects-download.php">View All Projects</a></li>
+</ul>
+</li>
+<li class="drop"> <a href="forums/">Forums</a>
+<ul class="dropdown">
+<li><a href="forums/">Forums Home</a></li>
+<li class="dropdown-submenu"><a href="/forums/management-students-voices-mba-bms-mms-bmm-bba/">Discuss</a>
+<ul class="dropdown-menu">
+<li><a href="forums/general-talks/">General Talks</a></li>
+<li><a href="forums/hot-debates-big-fight/">Debates</a></li>
+<li><a href="forums/indian-b-schools-college-zone-campus-talks/">B-schools</a></li>
+<li class="list_right2"><a href="forums/international-mba/">International MBA</a>
+<ul class="level3">
+<li><a href="forums/gmat/">GMAT</a></li>
+<li><a href="forums/gre/">GRE</a></li>
+<li><a href="forums/toefl/">TOEFL</a></li>
+<li><a href="forums/ielts/">IELTS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a href="forums/projects-hub-management-students-mba-projects-dissertations-bms-projects-bba-projects/">Research Reports</a>
+<ul class="dropdown-menu">
+<li><a href="forums/resolve-your-query-get-help-discuss-projects/">Project Helpline</a></li>
+<li><a href="forums/publish-upload-project-download-reference-project/">Download Projects</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a href="forums/preparation-resource-entrance-exams/">Discuss Entrance exams</a>
+<ul class="dropdown-menu">
+<li><a href="forums/di-ds/">Di / DS</a></li>
+<li><a href="forums/quant/">Quant</a></li>
+<li><a href="forums/rc-verbal/">Rc / Verbal</a></li>
+<li><a href="forums/personal-interviews-pi/">Personal Interview Tips</a></li>
+<li><a href="forums/general-knowledge-gk/">General Knowledge</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a href="forums/mirror-view-ebooks-links-miscellenous-reading-material/">Reading Material</a>
+<ul class="dropdown-menu">
+<li><a href="forums/articles/">Articles</a></li>
+<li><a href="forums/company-profiles-news/">Company profiles</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a href="forums/quiz-marketplace-community-games/">Community Network</a>
+<ul class="dropdown-menu">
+<li><a href="forums/contests-quizes-community-games/">Contests & Games</a></li>
+<li><a href="forums/stock-markets-tips-gyan/">Stock Market</a></li>
+<li><a href="forums/sell-buy-notes-products-services-etc/">Buy, Sell, Trade</a></li>
+<li><a href="forums/introduce-yourself/">Introduce Yourself</a></li>
+<li><a href="forums/laughter-accelerated-just-chill/">Laugh out loud</a></li>
+<li><a href="forums/garage/">Suggestions</a></li>
+</ul>
+</li>
+<li><a href="forums/usercp.php">User Control Panel</a></li>
+<li><a href="forums/search.php?do=getnew">Latest Posts</a></li>
+<li><a href="forums/search.php?do=getdaily">Today's Posts</a></li>
+</ul>
+</li>
+<li class="drop"> <a href="mba-blogs/">Blog</a>
+<ul class="dropdown">
+<li><a href="user_blog_entry.php">Write a blog</a></li>
+<li><a href="mba-blogs/">View Blogs</a></li>
+</ul>
+</li>
+<li class="drop"> <a href="search_video.php?t=vidoe&task=allcategory">Videos</a>
+<ul class="dropdown">
+<li><a href="user_video_upload.php?task=youtube">Upload Video</a></li>
+<li><a href="search_video.php?t=vidoe&task=allcategory">View All Videos</a></li>
+</ul>
+</li>
+<li class="drop"><a href="top_mba_institutes_india">Institutes</a>
+<ul class="dropdown">
+<li><a href="top_mba_institutes_india">Search Institutes and courses</a></li>
+<li><a href="user_institutes.php">Edit My Institute</a></li>
+</ul>
+</li>
+<li class="drop"><a href="mba-management-articles/">Articles</a>
+<ul class="dropdown">
+<li><a href="user_article_add.php">Publish an Article</a></li>
+<li><a href="mba-articles/summer-internship-programs/">Summer Internship Contest</a></li>
+<li><a href="mba-articles/banking-finance-articles/">Banking and Finance</a></li>
+<li><a href="mba-articles/human-resources-management-articles/">Human Resources</a></li>
+<li><a href="mba-articles/marketing-management-articles/">Marketing</a></li>
+<li><a href="mba-articles/operation-management-articles/">Operations</a></li>
+<li><a href="mba-articles/information-technology-articles/">Information Technology</a></li>
+<li><a href="mba-articles/finance-management-articles/">Finance</a></li>
+<li><a href="mba-articles/online-legal-articles/">Legal</a></li>
+<li><a href="mba-articles/entrepreneurship-articles/">Entrepreneurship</a></li>
+<li><a href="mba-articles/management-strategy-articles/">Strategy</a></li>
+<li><a href="mba-articles/">View All Articles</a></li>
+</ul>
+</li>
+<li class="drop"><a href="search_group.php?task=allcategory">Communities</a>
+<ul class="dropdown">
+<li><a href="user_group_add.php">Create a Community</a></li>
+<li><a href="search_group.php?task=allcategory">Browse Communities</a></li>
+</ul>
+</li>
+<li class="drop"><a href="search_events.php?task=allcategories">Events</a>
+<ul class="dropdown">
+<li><a href="user_event_add.php">Organize an Event</a></li>
+<li><a href="search_events.php?task=allcategories">Browse Events</a></li>
+</ul>
+</li>
+<li class="drop"><a href="job_advance_search.php">Jobs</a>
+<ul class="dropdown">
+<li><a href="user_job_entry.php">Post Jobs</a></li>
+<li><a href="job_advance_search.php">Search Jobs</a></li>
+</ul>
+</li>
+<li><a href="help_contact.php">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+</div>
+
+<div id="fb-root"></div>
+<script>
+
+		var force_next = 1;
+
+		
+
+		
+		
+
+		var facebookprocess_id = 0;
+
+		var facebookprocess_endpoint = 'facebookprocess_ajax.php';
+
+		window.fbAsyncInit = function() {
+
+			FB.init({
+
+				appId      : '8472917171', // App ID
+
+				channelUrl : 'http://www.managementparadise.com/channel.php', // Channel File
+
+				status     : true, // check login status
+
+				cookie     : true, // enable cookies to allow the server to access the session
+
+				xfbml      : true  // parse XFBML
+
+			});
+
+			// Additional initialization code here
+
+			FB.getLoginStatus(function(response) {
+
+				if (response.status === 'connected') {
+
+					facebookprocess_id = response.authResponse.userID;
+
+					facebookprocess_autologin(facebookprocess_id);
+
+				}
+
+				else if(response.status === 'not_authorized')
+
+				{
+
+					facebookprocess_autologin(0);
+
+				}
+
+			});
+
+		};
+
+		(function(d){
+
+			var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+
+			if (d.getElementById(id)) {return;}
+
+			js = d.createElement('script'); js.id = id; js.async = true;
+
+			js.src = "//connect.facebook.net/en_US/all.js";
+
+			ref.parentNode.insertBefore(js, ref);
+
+		}(document));
+
+		function facebookprocess_autologin(facebookprocess_id) {
+
+			if(facebookprocess_id==0)
+
+			{
+
+				allow_login = getCookie('facebook_autologin');
+
+				document.getElementById('id_remember_me').style.display = 'none';
+
+				if(allow_login!=2)
+
+					mooFaceboxExShow("", "#facebookprocess_autologin_prompt", 570)
+
+			}
+
+			else
+
+			{
+
+				var ajax = new SEMods.Ajax(facebookprocess_autologin_onSuccess);
+
+				var params = 'task=autologin&facebookprocess_id='+facebookprocess_id;
+
+				ajax.post(facebookprocess_endpoint, params)
+
+			}
+
+		}
+
+		function facebookprocess_autologin_onSuccess (obj, responseText) {
+
+			var r = [];
+
+			try {
+
+				r = eval('(' + responseText + ')')
+
+			} catch(e) {
+
+				r.status = 1
+
+			};
+
+			if (r.status == 0) {
+
+				if(r.autologin == 0) {
+
+					// show dialog
+
+					mooFaceboxExShow("", "#facebookprocess_autologin_prompt", 570)
+
+				} else if(r.autologin == 1) {
+
+					// autologin
+
+					parent.facebookprocess.login_facebook(document.location, force_next);
+
+				}
+
+				// otherwise autologin is off by user
+
+			} else {
+
+			}
+
+		}
+
+		function facebookprocess_autologin_confirmed() {
+
+			var checkbox = _mooFaceboxEx.faceboxEl.getElement('.openidconnect_autologin_remember');
+
+			var checked = checkbox.checked;
+
+			mooFaceboxExClose();
+
+			if(facebookprocess_id==0)
+
+			{
+
+				document.getElementById('id_remember_me').style.display = '';
+
+				parent.facebookprocess.login_facebook(document.location, force_next);
+
+			}
+
+			else
+
+			{
+
+				var complete_login = function(obj, responseText) { parent.facebookprocess.login_facebook(document.location, force_next); };
+
+				if(checked) {
+
+					var ajax = new SEMods.Ajax(complete_login,complete_login);
+
+					var params = 'task=autologinnexttime&facebookprocess_id='+facebookprocess_id;
+
+					ajax.post(facebookprocess_endpoint, params);
+
+				} else {
+
+					parent.facebookprocess.login_facebook(document.location, force_next);
+
+
+
+				}
+
+			}
+
+		}
+
+		function facebookprocess_autologin_cancel() {
+
+			var checkbox = _mooFaceboxEx.faceboxEl.getElement('.openidconnect_autologin_remember');
+
+			var checked = checkbox.checked;
+
+			mooFaceboxExClose();
+
+			if(facebookprocess_id==0)
+
+			{
+
+				document.getElementById('id_remember_me').style.display = '';
+
+				setCookie('facebook_autologin',2);
+
+			}
+
+			else
+
+			{
+
+			  var ajax = new SEMods.Ajax();
+
+			  var params = 'task=autologinsuppress&facebookprocess_id='+facebookprocess_id+'&autologinremember=' + (checked ? 1 : 0);
+
+			  ajax.post(facebookprocess_endpoint, params);
+
+			}
+
+		}
+
+		function getCookie(c_name)
+
+		{
+
+			var i,x,y,ARRcookies=document.cookie.split(";");
+
+			for (i=0;i<ARRcookies.length;i++)
+
+			{
+
+				x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+
+				y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+
+				x=x.replace(/^\s+|\s+$/g,"");
+
+				if (x==c_name)
+
+				{
+
+					return unescape(y);
+
+				}
+
+			}
+
+		}
+
+		function setCookie(c_name,value,exdays)
+
+		{
+
+			var exdate=new Date();
+
+			exdate.setDate(exdate.getDate() + exdays);
+
+			var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+
+			document.cookie=c_name + "=" + c_value;
+
+		}
+
+	</script>
+<div id="facebookprocess_autologin_prompt" style="display:none">
+<div id='form_div'>
+<div style="border-bottom: 1px solid #DDD; margin-bottom: 10px; padding-bottom: 5px;"><img style="float:left; padding-right: 5px; width: 16px;height:18px;" src="./images/brands/logo_facebook_mini.gif"> &nbsp; <span style="font-size: 14px">Login via Facebook?</span></div><br />
+<div style="position: relative; text-align: center">
+<div style="margin: 0px auto;width: 500px">You are currently logged in to Facebook. Would you like to autologin to the network?</div>
+</div><br /><br />
+<table cellpadding='0' cellspacing='0' style="margin: 0px auto">
+<tr>
+<td><input type='submit' style="width: 150px" class='button' onclick="facebookprocess_autologin_confirmed()" value='Autologin'>&nbsp;&nbsp;</td>
+<td style="padding-left: 10px"> or <a class="" href="javascript:void(0)" onclick="facebookprocess_autologin_cancel()">Cancel</a>&nbsp;&nbsp;</td>
+</tr><tr id="id_remember_me">
+<td><input class="openidconnect_autologin_remember" type='checkbox' style="vertical-align:middle">&nbsp;&nbsp;<label for='openidconnect_autologin_remember' style="vertical-align:middle">Remember my choice</label></td>
+<td>&nbsp; </td>
+</tr>
+</table><br />
+</div>
+</div>
+<table>
+<tr>
+<td height="10" colspan="3" align="left" valign="top"><img src="images/spacer.gif" width="1" height="10" /></td>
+</tr>
+<tr id='classified_search'>
+<td width="992" colspan="3" align="left" valign="top"><table width="992" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+<td width="452" colspan="2" height="41" align="left" valign="top" class="tabs_left"><table width="424" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+<td width="10" height="41" align="left" valign="top"><img src="images/spacer.gif" width="10" height="1" /></td>
+<td width="25" align="left" valign="top" class="padding_top2"><img src="images/error.jpg" width="25" height="34" /></td>
+<td width="10" align="left" valign="middle"><img src="images/spacer.gif" alt="" width="10" height="1" /></td>
+<td width="179" align="left" valign="middle" class="arial14_blue_bold">ERROR</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan="2" align="left" valign="top"><table width="992" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+<td width="26" align="left" valign="top"><img src="images/spacer.gif" alt="" width="1" height="15" class="tabs_rightend" /></td>
+<td width="199" align="left" valign="top"><img src="images/spacer.gif" width="1" height="15" /></td>
+<td width="763" align="left" valign="top" background="images/rtbg.jpg"><img src="images/spacer.gif" alt="" width="1" height="15" /></td>
+<td width="26" align="left" valign="top"><img src="images/tabs_rightimg.jpg" width="26" height="15" /></td>
+</tr>
+<tr>
+<td colspan="4" align="left" valign="top"><table width="992" border="0" align="left" cellpadding="0" cellspacing="0" class="background_bdr1">
+<tr>
+<td width="990" colspan="7" align="left" valign="top"><img src="images/spacer.gif" width="1" height="5" /></td>
+</tr>
+<tr>
+<td width="10" height="22" align="left"><img src="images/spacer.gif" width="1" height="5" /></td>
+<td width="968" height="22" align="center" valign="middle" colspan="6" class="tahoma12_red_bold">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="top">
+The page you are looking for does not exist. </td>
+</tr>
+<tr><td>&nbsp;</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<input type='image' src="images/return_btn.jpg" onClick='history.go(-1)'>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan="2" align="left" valign="top"><table width="992" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+<td width="10" align="left" valign="top"><img src="images/tabs_botleft.jpg" width="10" height="13" /></td>
+<td width="972" align="left" valign="top" class="tabs_bg"><img src="images/spacer.gif" width="1" height="13" /></td>
+<td width="10" align="right" valign="top"><img src="images/tabs_botright.jpg" width="10" height="13" /></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan="3" align="center" valign="top">&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="left" valign="top"><table width="994" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="bottom_bg"><table width="980" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="193" align="left" valign="top"><table width="193" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="left" valign="top"><img src="images/spacer.gif" width="1" alt="spacer gif" height="11" /></td>
+</tr><tr>
+<td height="24" colspan="2" align="left" valign="middle" class="tahoma11_black_bold" style="padding-left:10px;">Management Paradise</td>
+</tr><tr>
+<td height="15" colspan="2" align="left" valign="top"><img src="images/spacer.gif" alt="spacer gif" width="1" height="15" /></td>
+</tr><tr>
+<td width="28" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" alt="arrow gif" /></td>
+<td width="165" height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="aboutus.php" class="tahoma11_darkgray">About Us</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></span></td>
+<td height="27" align="left" valign="top"><span class="tahoma11_darkgray"><a href="press.php" class="tahoma11_darkgray">Press</a></span></td>
+</tr><tr>
+<td height="25" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="career_jobs.php" class="tahoma11_darkgray">Jobs</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></td>
+<td height="27" align="left" valign="top"><span class="tahoma11_darkgray"><a href="http://www.managementparadise.com/mba-projects-download.php" target="_blank" class="tahoma11_darkgray">MBA Projects</a></span></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></span></td>
+<td height="27" align="left" valign="top"><span class="tahoma11_darkgray"><a rel="nofollow" href="https://plus.google.com/100441927948400090159? rel=author">Kartik Raichura</a></span></td>
+</tr>
+</table></td>
+<td width="1" align="left" valign="top"><table width="1%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10" align="left" valign="top"><img src="images/spacer.gif" width="1" height="11" alt="spacer gif" /></td>
+</tr><tr>
+<td width="10" class="bottom_dottedline_vertical"><img src="images/spacer.gif" width="1" height="177" alt="spacer gif" /></td>
+</tr>
+</table></td>
+<td width="198" align="left" valign="top"><table width="198" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="left" valign="top"><img src="images/spacer.gif" alt="spacer gif" width="1" height="11" /></td>
+</tr><tr>
+<td height="24" colspan="2" align="left" valign="middle" class="tahoma11_black_bold" style="padding-left:10px;">Legal</td>
+</tr><tr>
+<td height="15" colspan="2" align="left" valign="top"><img src="images/spacer.gif" alt="spacer gif" width="1" height="15" /></td>
+</tr><tr>
+<td width="28" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" alt="spacer gif" width="8" height="5" /></td>
+<td width="165" height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="help_tos.php" class="tahoma11_darkgray">Terms &amp; Conditions</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" alt="spacer gif" width="8" height="5" /></span></td>
+<td height="27" align="left" valign="top"><span class="tahoma11_darkgray"><a href="privacypolicy.php" class="tahoma11_darkgray">Privacy Policy</a></span></td>
+</tr><tr>
+<td height="25" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" alt="spacer gif" width="8" height="5" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="disclaimer.php" class="tahoma11_darkgray">Disclaimer</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" alt="spacer gif" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="copyrights.php" class="tahoma11_darkgray">Copyrights</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" alt="spacer gif" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="help_contact.php" class="tahoma11_darkgray">Contact Us</a></td>
+</tr>
+</table></td>
+<td width="1" align="left" valign="top"><table width="1%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10" align="left" valign="top"><img src="images/spacer.gif" alt="spacer gif" width="1" height="11" /></td>
+</tr><tr>
+<td width="10" align="left" valign="top" class="bottom_dottedline_vertical"><img src="images/spacer.gif" width="1" height="177" alt="spacer gif" /></td>
+</tr>
+</table></td>
+<td width="198" align="left" valign="top"><table width="198" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="left" valign="top"><img src="images/spacer.gif" alt="spacer gif" width="1" height="11" /></td>
+</tr><tr>
+<td height="24" colspan="2" align="left" valign="middle" class="tahoma11_black_bold" style="padding-left:10px;">Help</td>
+</tr><tr>
+<td height="15" colspan="2" align="left" valign="top"><img src="images/spacer.gif" alt="spacer gif" width="1" height="15" /></td>
+</tr><tr>
+<td width="28" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" alt="spacer gif" width="8" height="5" /></td>
+<td width="165" height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="research.php" class="tahoma11_darkgray">Zeitgeist</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></span></td>
+<td height="27" align="left" valign="top"><span class="tahoma11_darkgray"><a href="support.php" class="tahoma11_darkgray">Support</a></span></td>
+</tr><tr>
+<td height="25" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="help.php" class="tahoma11_darkgray">FAQs</a></td>
+</tr><tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="tour.php" class="tahoma11_darkgray">Tour</a></td>
+</tr>
+<tr>
+<td height="27" align="center" valign="top" style="padding-top:5px;"><img src="images/arrow2.jpg" width="8" height="5" /></td>
+<td height="27" align="left" valign="top" class="tahoma11_darkgray"><a href="feedback.php" class="tahoma11_darkgray">Feedback</a></td>
+</tr>
+</table></td>
+<td width="1" align="left" valign="top"><table width="1%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10" align="left" valign="top"><img src="images/spacer.gif" width="1" height="11" /></td>
+</tr><tr>
+<td width="10" align="left" valign="top" class="bottom_dottedline_vertical"><img src="images/spacer.gif" width="1" height="177" /></td>
+</tr>
+</table></td>
+<td width="198" align="left" valign="top"><table width="198" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="left" valign="top"><img src="images/spacer.gif" width="1" height="11" /></td>
+</tr><tr>
+<td height="24" colspan="2" align="left" valign="middle" class="tahoma11_black_bold" style="padding-left:10px;">Our Network</td>
+</tr><tr>
+<td height="5" colspan="2" align="left" valign="top"><img src="images/spacer.gif" width="1" height="5" /></td>
+</tr>
+<tr>
+<td width="165" height="27" align="left" valign="middle" class="tahoma11_darkgray"><p style="margin-top:0px;"><img src="http://www.managementparadise.com/images/arrow2.jpg" alt="MBA" />&#160;<strong><a href="http://www.B-School.com" rel="me nofollow">B School</a>&#160;Blog</strong></p>
+<p style="margin-top:0px;"><img src="http://www.managementparadise.com/images/arrow2.jpg" alt="MBA" />&#160;<a href="http://forms.managementparadise.com" rel="me nofollow">Buy Entrance Exam Forms</a></p>
+<p style="margin-top:0px;"><img src="http://www.managementparadise.com/images/arrow2.jpg" alt="MBA" />&#160;<a href="http://BMS.co.in" rel="me nofollow">BMS Blog</a></p>
+<p style="margin-top:0px;"><img src="http://www.managementparadise.com/images/arrow2.jpg" alt="MBA" />&#160;<a href="http://MBAs.in" rel="me nofollow">MBA Blog</a></p>
+<p style="margin-top:0px;"><img src="http://www.managementparadise.com/images/arrow2.jpg" alt="MBA" />&#160;<a href="http://BMM.co.in" rel="me nofollow">BMM Network</a></p></td>
+</tr>
+</table></td>
+<td width="1" align="left" valign="top"><table width="1%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10" align="left" valign="top"><img src="images/spacer.gif" width="1" height="11" /></td>
+</tr><tr>
+<td width="10" class="bottom_dottedline_vertical"><img src="images/spacer.gif" width="1" height="177" /></td>
+</tr>
+</table></td>
+<td align="left" valign="top"><table width="202" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" valign="top"><img src="images/spacer.gif" width="1" height="11" /></td>
+</tr><tr>
+<td height="24" align="left" valign="middle" class="tahoma11_black_bold" style="padding-left:10px;">Follow</td>
+</tr><tr>
+<td height="5" align="left" valign="top"><img src="images/spacer.gif" width="1" height="5" /></td>
+</tr><tr>
+<td align="center" valign="middle"><table>
+<tbody>
+<tr>
+<td height="5" valign="top" align="left" colspan="4"><img height="5" width="1" alt="" src="http://www.managementparadise.com/images/spacer.gif" /></td>
+</tr>
+<tr>
+<td height="43" width="46" valign="middle" align="center"><a rel="”nofollow”" target="_blank" href="http://www.facebook.com/pages/Mumbai/ManagementParadisecom/111925328347?ref=ts"><img height="32" width="32" border="0" alt="" src="http://managementparadise.com/images/follow_img1.jpg" /></a></td>
+<td height="27" width="40" valign="middle" align="left" class="tahoma11_darkgray"><a rel="”nofollow”" target="_blank" href="http://twitter.com/MP_connect"><img height="32" width="32" border="0" alt="" src="http://www.managementparadise.com/images/follow_img2.jpg" /></a></td>
+<td width="36" valign="middle" align="left" class="tahoma11_darkgray"><a rel="”nofollow”" target="_blank" href="http://www.linkedin.com/companies/management-paradise"><img height="32" width="32" border="0" alt="" src="http://www.managementparadise.com/images/follow_img7.jpg" /></a></td>
+<td width="80" valign="middle" align="left" class="tahoma11_darkgray">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<g:plusone></g:plusone></td>
+</tr>
+<tr>
+<td height="40" width="46" valign="middle" align="center">&#160;</td>
+<td height="27" valign="middle" align="left">&#160;</td>
+<td height="27" valign="middle" align="left">&#160;</td>
+<td height="27" valign="middle" align="left">&#160;</td>
+</tr>
+<tr>
+<td height="45" valign="middle" align="center">&#160;</td>
+<td height="27" valign="middle" align="left" class="tahoma11_darkgray" colspan="3">&#160;</td>
+</tr>
+</tbody>
+</table>
+<p>&#160;</p></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr><tr>
+<td colspan="3" align="left" valign="top"><img src="images/spacer.gif" alt="" width="1" height="20" /></td>
+</tr><tr>
+<td colspan="3" align="left" valign="top"><table width="994" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr>
+<td width="489" height="20" align="left" valign="bottom" class="tahoma11_black">Copyright 2004 - 2018 Management Paradise.</td>
+</tr>
+</table></td>
+</tr><tr>
+<td colspan="3" align="left" valign="top">&nbsp;</td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-326965-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-BfXdgLT1Lf5Lk"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-BfXdgLT1Lf5Lk.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<div id="apps_error_message_div" class="apps_errmsg" style="display:none">
+There was an error processing the request. Please try again. </div>
+<script type='text/javascript'>
+if (typeof current_timeout == 'undefined') {
+  var open_menu;
+  var current_timeout = new Array();
+  function showMenu(id1) {
+    if($(id1)) {
+      if($(id1).style.display == 'none') {
+    if($(open_menu)) { hideMenu($(open_menu)); }
+        $(id1).style.display='inline';
+    startMenuTimeout($(id1));
+    $(id1).addEvent('mouseover', function(e) { killMenuTimeout(this); });
+    $(id1).addEvent('mouseout', function(e) { startMenuTimeout(this); });
+    open_menu = id1;
+      }
+    }
+  }
+  function killMenuTimeout(divEl) {
+    clearTimeout(current_timeout[divEl.id]);
+    current_timeout[divEl.id] = '';
+  }
+  function startMenuTimeout(divEl) {
+    if(current_timeout[divEl.id] == '') {
+      current_timeout[divEl.id] = setTimeout(function() { hideMenu(divEl); }, 1000);
+    }
+  }
+  function hideMenu(divEl) {
+    divEl.style.display = 'none'; 
+    current_timeout[divEl.id] = '';
+    divEl.removeEvent('mouseover', function(e) { killMenuTimeout(this); });
+    divEl.removeEvent('mouseout', function(e) { startMenuTimeout(this); });
+  }
+}
+</script>
+
+<script type="text/javascript">
+  var openidconnect_primary_network = 'facebook';
+
+  var openidconnect_facebook_api_key = "8472917171";
+  var openidconnect_facebook_user_id = "0";
+</script>
+<div id="openidconnect_autologin_prompt" style="display:none">
+<div id='form_div'>
+<div style="border-bottom: 1px solid #DDD; margin-bottom: 10px; padding-bottom: 5px;">
+<img style="float:left; padding-right: 5px; width: 16px;height:18px;" src="./images/brands/logo_facebook_mini.gif"> &nbsp; <span style="font-size: 14px">Login via Facebook?</span>
+</div>
+<br />
+<div style="position: relative; text-align: center">
+<div style="margin: 0px auto;width: 500px">
+You are currently logged in to Facebook. Would you like to autologin to the network? </div>
+</div>
+<br />
+<br />
+<table cellpadding='0' cellspacing='0' style="margin: 0px auto">
+<tr>
+<td><input type='submit' style="width: 150px" class='button openidconnect_autologin_prompt_confirmed' onclick="openidconnect_autologin_confirmed()" value='Autologin'>&nbsp;&nbsp;</td>
+<td style="padding-left: 10px"> or <a class="openidconnect_autologin_prompt_cancel" href="javascript:void(0)" onclick="openidconnect_autologin_cancel()">Cancel</a>&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td>
+<input class="openidconnect_autologin_remember" type='checkbox' style="vertical-align:middle">&nbsp;&nbsp;<label for='openidconnect_autologin_remember' style="vertical-align:middle">Remember my choice</label>
+</td>
+<td> &nbsp; </td>
+</tr>
+</table>
+<br />
+</div>
+</div>
+<script type="text/javascript">
+  //SEMods.B.register_onload( function() {  openidconnect_facebook_onload( { 'user_exists' : '0', 'hook_logout' : '1', 'autologin' : '1', 'request_connect' : '0' } ); } );
+</script>
+</body>
+</html>
