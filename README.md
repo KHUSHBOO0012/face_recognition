@@ -20,7 +20,7 @@ in order to compare the test images from database.
 
 - [celebrity_face_recognition.ipynb](https://github.com/KHUSHBOO0012/face_recognition/blob/master/celebrity_face_recognition.ipynb): notebook containing the codes with slight explanation.
 
-- [`celebrity_face_recognition.py`](`https://github.com/KHUSHBOO0012/face_recognition/blob/master/celebrity_face_recognition.ipynb`) python file for the ipynb file provided above.
+- [`celebrity_face_recognition.py`](https://github.com/KHUSHBOO0012/face_recognition/blob/master/celebrity_face_recognition.py) python file for the ipynb file provided above.
 
 - [`facenet_keras_weight.h5`](https://github.com/KHUSHBOO0012/face_recognition/blob/master/facenet_keras_weight.h5): pretrained weight of [`inception_resnet_v1`](https://github.com/KHUSHBOO0012/face_recognition/blob/master/inception_resnet_v1.py).
 
